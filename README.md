@@ -13,7 +13,7 @@
 # Review of the beauty of SQL
 
 # Introduction & Goals
-The following project is designed to provide a clear overview of the core concepts behind the SQL language using the classic Adventure works database which is organised within a typical star schema whereby the fact and dimensions of the database are separated. In particular , we will be working with the sales, reseller and finance databases each with approximately 6-12 interlinking tables. 
+The following project is designed to provide a clear overview of the core concepts behind the SQL language using the Adventure works (global manufacturing company) database which is organised within a typical star schema whereby the fact and dimensions of the database are separated. In particular , we will be working with the sales, reseller and finance databases each with approximately 6-12 interlinking tables. 
 As per the contents section, the project will be broken down into an introduction of the data itself followed by the primary strucuture of SQL queries whereby it will then delve deeper into the nuances of joining tables and developing subqueries within SQL itself. 
 
 # Contents
@@ -38,35 +38,23 @@ As per the contents section, the project will be broken down into an introductio
 
 
 # The Data Set
-- Explain the data set
-- Why did you choose it?
-- What do you like about it?
-- What is problematic?
-- What do you want to do with it?
+The various databases follow the Azure data stack in which they will be accessed through the Azure Data Studio deskop application. The data itself is owned by a Multi-National manufacturing company who manufactures and sells metal and composite bicycles. The company consists of 290 employees with several regional teams and is looking to broaden its market share by reviewing the source of its sales with a particular focus on the performance via its online presence. 
 
-# Used Tools
-- Explain which tools do you use and why
-- How do they work (don't go too deep into details, but add links)
-- Why did you choose them
-- How did you set them up
+The tables within the database consist of the following schemas: 
+  -> Financial data: 
+    IMAGE
+  -> Sales data: 
+    IMAGE
+  -> Reseller data: 
+    IMAGE
 
-## Connect
-## Buffer
-## Processing
-## Storage
-## Visualization
+Upon initial review, one can determine that the data itself is well structured with the factual data acting as the central potion of each database with the dimensions following a logical snowflake-like structure. For the purposes of this project, no additional functionality of such a database such as views will be covered as the analysis is being conducted from the viewpoint of a data analyst. 
 
-# Pipelines
-- Explain the pipelines for processing that you are building
-- Go through your development and add your source code
+# Developing familiarity with the database (overview of order of operations within SQL)
 
-## Stream Processing
-### Storing Data Stream
-### Processing Data Stream
-## Batch Processing
-## Visualizations
+The tools within this project are fairly simple with SQL being the only language utilised. One may ,however, utilise notepad++ as a repository of sorts, to store data in the format in which it would be illustrated from the UI of the datawarehouse (as opposed to a text based notepad or a language specific IDE such as PyCharm). 
 
-# Demo
+# Joins and SubQueries
 - You could add a demo video here
 - Or link to your presentation video of the project
 
