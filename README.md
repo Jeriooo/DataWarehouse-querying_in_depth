@@ -46,7 +46,7 @@ As per the above, the manner in which one should typically approach a database i
 
 The second visulisation provides an example of how one can leverage multiple conditional statements within SQL , proving that SQL can be utilised to develop analysis itslef rather than be simply viewn as a data extracton tool. 
 
-![](/Images/SQL_conditional analysis.png)
+![](/Images/SQL_conditional.png)
 
 Queries pertaining to the initial analysis are provided in the accompanying files. 
 
