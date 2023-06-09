@@ -2,24 +2,16 @@
 
 # Introduction & Goals
 The following project is designed to provide a clear overview of the core concepts behind the SQL language using the Adventure works (global manufacturing company) database which is organised within a typical star schema whereby the fact and dimensions of the database are separated. In particular , we will be working with the sales, reseller and finance databases each with approximately 6-12 interlinking tables. 
+
 As per the contents section, the project will be broken down into an introduction of the data itself followed by the primary strucuture of SQL queries whereby it will then delve deeper into the nuances of joining tables and developing subqueries within SQL itself. 
 
 # Contents
 
 - [The Data Set](#the-data-set)
 - [Used Tools](#used-tools)
-  - [Connect](#connect)
-  - [Buffer](#buffer)
-  - [Processing](#processing)
-  - [Storage](#storage)
-  - [Visualization](#visualization)
-- [Pipelines](#pipelines)
-  - [Stream Processing](#stream-processing)
-    - [Storing Data Stream](#storing-data-stream)
-    - [Processing Data Stream](#processing-data-stream)
-  - [Batch Processing](#batch-processing)
-  - [Visualizations](#visualizations)
-- [Demo](#demo)
+- [Steps](#steps)
+  - [Developing familiarity with the database](#developing-familiarity-with-the-database)
+  - [Joins and SubQueries](#joins-and-subqueries)
 - [Conclusion](#conclusion)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
@@ -38,10 +30,12 @@ The tables within the database consist of the following schemas:
 
 Upon initial review, one can determine that the data itself is well structured with the factual data acting as the central potion of each database with the dimensions following a logical snowflake-like structure. For the purposes of this project, no additional functionality of such a database such as views will be covered as the analysis is being conducted from the viewpoint of a data analyst. 
 
-# Tools
+# Used Tools
 The tools within this project are fairly simple with SQL being the only language utilised. One may ,however, utilise notepad++ as a repository of sorts, to store data in the format in which it would be illustrated from the UI of the datawarehouse (as opposed to a text based notepad or a language specific IDE such as PyCharm). 
 
-# Developing familiarity with the database (overview of order of operations within SQL)
+# Steps
+
+## Developing familiarity with the database
 Although there are many queries that one can utilise to familiarise oneself with the databases, I believe the following image servers as one that provides a clear illustration in terms of the methodology that the SQL language utilises: 
 
 * IMAGE: 
@@ -54,7 +48,7 @@ The second visulisation provides an example of how one can leverage multiple con
 
 Queries pertaining to the initial analysis are provided in the accompanying files. 
 
-# Joins and SubQueries
+## Joins and SubQueries
 When attempting to join tables within a database, rather than viewing the operations from an circular object type interectional framework as taught in various courses that I have undertaken in the past, I find it most useful to view the joins in a rescursive manner whereby I attempt to emulate what would occur should there not be a corresponding row-wise vaulue within the second column. IE Inner join : if there is no corresponding value , I do not want the data to be included. 
 Moreover, I find that there are not always many resources that cover the functionality between bridge tables. As such I have included an image of a SQL query which hasndles suc an operation quite clearly: 
 
