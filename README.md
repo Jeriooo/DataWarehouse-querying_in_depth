@@ -38,7 +38,7 @@ The tools within this project are fairly simple with SQL being the only language
 ## Developing familiarity with the database
 Although there are many queries that one can utilise to familiarise oneself with the databases, I believe the following image servers as one that provides a clear illustration in terms of the methodology that the SQL language utilises: 
 
-![](/Images/Azure_data_studio_overview.png)
+![](/Images/Azure.png)
 
 ![](/Images/SQL_order_of_operations.png)
 
@@ -46,7 +46,7 @@ As per the above, the manner in which one should typically approach a database i
 
 The second visulisation provides an example of how one can leverage multiple conditional statements within SQL , proving that SQL can be utilised to develop analysis itslef rather than be simply viewn as a data extracton tool. 
 
-![](/Images/SQL_conditional_analysis.png)
+![](/Images/SQL_conditional analysis.png)
 
 Queries pertaining to the initial analysis are provided in the accompanying files. 
 
